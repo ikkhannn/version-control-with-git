@@ -1,0 +1,13 @@
+git status	     (status of files)
+git remote --verbose (information about remote repo)
+git push -u shortcutenameofremoterepo branch  (-u=track this branch, (only first time))
+
+
+branch labels:
+
+git tag v1.0 (tag the current commit )
+git tag v1.0 HEAD^ (tag the parent and current commit with v1.0 tag)
+
+
+creating a branch:
+git branch (list branches)
