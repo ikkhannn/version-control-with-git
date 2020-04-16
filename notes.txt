@@ -11,3 +11,14 @@ git tag v1.0 HEAD^ (tag the parent and current commit with v1.0 tag)
 
 creating a branch:
 git branch (list branches)
+git branch featurex (create featurex branch)
+git checkout featurex (change to featurex branch)
+
+git branch -d featurex (delete commitless featurex branch)
+git branch -D featurex (delete featurex branch if it has some commits)
+git reflog 	       (lists all the commits to which head was recently attached (this is used for undeleting a commit))
+git checkout -b featurex commithash 	(used to undelete a commit)
+
+
+commit 2
+adding commit 1 in featurex branch
