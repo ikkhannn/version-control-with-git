@@ -22,3 +22,4 @@ git checkout -b featurex commithash 	(used to undelete a commit)
 
 commit 2
 adding commit 1 in featurex branch
+adding commit 2 in featurex branch
